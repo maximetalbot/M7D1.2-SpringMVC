@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Index HTML</title>
+</head>
+<body>
+<!-- 
+	<p><a href="app/bonjour">Lien vers app/bonjour</a></p>
+	<p><a href="app/bonjour/hello">Lien vers app/bonjour/hello</a></p>
+ -->
+	<p><a href="app/hello">Lien vers app/hello</a></p>
+	<p><a href="app/heure">Lien vers app/heure</a></p>
+	
+	<p><a href="app/bonjour?nom=talbot">Lien vers app/bonjour?nom=talbot</a></p>
+	
+	<div>
+		<form action="app/ajout" method="POST">
+			<div>
+				<label for="prenom">Prenom: </label>
+				<input type="text" id="prenom" name="prenom">
+			</div>
+			<div>
+				<label for="nom">Nom: </label>
+				<input type="text" id="nom" name="nom">
+			</div>
+			<button type="submit">Go !</button>
+		</form>
+	</div>
+</body>
+</html>
